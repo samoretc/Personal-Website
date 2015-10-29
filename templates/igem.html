@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ted's Website</title>
+
+<link rel="stylesheet" type="text/css"
+  href="static/stylesheets/style2.css" />  </head>
+  <body>
+    <ul class = "bar">
+    <li><a href="index.html">Home</a></li>
+
+    <li><a href="#" class = "notActive">Web Projects</a>
+      <ul>
+        <li><a href="webdev.html">App Engine Projects</a></li>
+        <li><a href="igem.html">iGEM Website</a></li>
+      <li><a href="khan.html">Khan Academy Programs</a>      </ul>
+      <li>
+    <li><a href ="compmodeling.html" class = "notActive">Computational Math</a>
+  <!--     <ul>
+      
+        <li><a href="research.html">Computational Simulation of Chromatography</a></li>
+        <li><a href="compmodeling.html">Computational Modeling</a>
+         <li><a href="sfo.html">Data Mining</a>
+      </ul> -->
+    </li>
+    <li><a href="mechatronics.html">Mechatronics</a>
+    </li>
+    <!-- <li><a href="favquotes.html">Favorite Quotes</a></li> -->
+  </ul>   
+  	<div class = "wrapper">
+  	<div class = "container">
+       <div class = "card">
+         <div style = "width: 100%; background-color: white;">
+    		  <h1 id = "title">iGEM Website</h1>
+          <p style = "padding: 10px; width: 75%; margin: auto"> During the summer of 2013, I was a part of the Rose-Hulman International Genetic Engineered Machine (iGEM) team. In brief, our project aimed to transform Yeast and E. Coli, so they would need each other to survive. As a part of the competition, we needed to build a website. Click <a href = 'http://2013.igem.org/Team:RHIT'>here</a> to reach it.<br> <br> As a part of our project, I made the canvas simulation shown below. Our model consisted of a two by two set of differential equations. The simulation shows the phase plan as well as the solution to this system of differential equations. You can drag and drop the blue dot around (the initial concentrations) to determine if we predict the yeast and bacteria population to survive or die.<br> <br> <br>  </p>
+        </div>
+
+      </div>
+     <!-- <h1 id = "title">Line Following Robot</h1>
+      <div class = "description"><img src = "simon1.png" width = "300" id = "welcomeImage"></div>
+     <a href = "Simon Presentation.pdf">Simon Slides</a> -->
+  	</div>
+        <canvas id="myCanvas"></canvas>
+  </div>
+  </body> 
+ <script src="static/js/processing-1.3.6.min.js"></script> <!-- Include the processing.js commands -->
+ <script src="static/js/ted3.js"></script> <!-- The actual source code for your program -->
+ <script type="application/javascript">
+  var Canvas = document.getElementById("myCanvas"); //get the canvas that processingjs will use
+  var processingInstance = new Processing(Canvas, sketchProc); //pass the function sketchProc (defined in myCode.js) to Processing's constructor.
+ </script> 
+</html>

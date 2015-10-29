@@ -1,0 +1,251 @@
+.description{
+  position:relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.title2{
+  text-align: center;
+}
+.program {
+
+  width: 420px; margin: auto; 
+}
+.pic {
+  margin: 20px;
+}
+.photoboard{
+  position: relative;
+  display: inline-block;
+
+}
+.sidebar{
+  position: relative;
+  left: -180px;
+  top:35px;
+
+}
+
+.sideitem{
+	margin-top: 20px
+}
+.lab{
+	font-weight: bold;
+	
+}
+
+
+html, body {
+  /*background-color: black;*/
+	display: block;
+  height: 100%;
+}
+
+.wrapper{
+width: 800px;
+margin-right: auto;
+margin-left: auto;
+background-color: white;
+
+height: 100%;
+}
+  .card {
+    width: 800px;
+  }
+
+
+.container2 {
+width: 500px;
+margin:  auto;
+}
+p {
+align: justify;
+font:15px arial,sans-serif bold;
+line-height:2;
+
+}
+  .description{
+    width: 50%;
+    background-color: white;
+}
+  .card {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    background-color: white;
+  }
+
+.bar {/*adjust the width of this as you add or remove nav items*/
+display: block;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+   ul ul {
+  background: #5f6975; border-radius: 0px; padding: 0;
+  position: absolute; top: 100%;
+  z-index: 999;
+
+}
+   ul ul li {
+    float: none; 
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+      z-index: 999;
+  }
+     ul ul li a {
+      color: #fff;
+
+    } 
+       ul ul li a:hover {
+        background: #4b545f;
+      }
+
+   ul li {
+  float: left;
+
+}
+
+   ul li:hover {
+    background: #4b545f;
+    background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+  }
+     ul li:hover a {
+      color: #fff;
+    }
+  
+   ul li a {
+    display: block; padding: 25px 40px;
+    color: #757575; text-decoration: none;
+  }
+ ul {
+  background: #efefef; 
+  background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+  background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+  background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+  padding: 0 px;
+  border-radius: 10px;  
+  list-style: none;
+  position: relative;
+  display: inline-table;
+    margin-right: auto;
+  margin-left: auto;
+    z-index: 999;
+}
+   ul:after {
+    content: ""; clear: both; display: block;
+  }
+   ul ul {
+  display: none;
+}
+
+   ul li:hover > ul {
+    display: block;
+  }
+
+
+/*a {
+text-decoration: none;
+color: black;
+
+}
+
+.active { border-right: solid black 1px; padding-left: 3px;padding-right: 5px;}
+.active:last-child {
+	border-right: none;
+
+}
+li {
+	display: inline;
+}
+ul { 
+list-style-type: none; 
+list-style-image: none;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+
+} */
+
+/*.active:hover {
+  background: #efefef; 
+  background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+  background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+  background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}*/
+.navBar {
+	margin-right: auto;
+	margin-left: auto;
+	width: 700px;
+
+}
+
+
+#title {
+text-align: center;
+font-size: 2.5em;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+font-weight: normal;
+}
+.welcomeImage {
+margin-right: auto;
+margin-left: auto;
+width: 150px;
+
+}
+
+canvas#myCanvas {
+    position: relative;
+    left: 100px;
+}
+
+.col{
+        width: 350px;
+        /*border:2px solid;*/
+        border-radius:25px;
+        margin: 10 px;
+        float: left;
+    }
+      .back:hover { 
+        background-color: #EEEEEE;
+      }
+      .back{
+         background-color: #C6C6C7;
+		border:2px solid;
+		border-radius:25px;
+        
+		box-shadow: 5px 5px 5px #888888;
+        margin: 10px; 
+        padding: 20px;       
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        font-weight: normal;
+
+      }
+      /* .back:nth-child(2n + 1)
+{
+        float: right
+    }*/
+     /* 
+        TASK 4 - Changing font size of your poster
+        *****************************************
+        The text size is one of the simplest things you can change in CSS.  
+        Below you can see that we have the font-size set at 150px.  If you change that number to say 100px you will see the text get small.
+        Try changing the 
+    */
+
+    h2 {
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: normal;
+        margin-top:30px;
+        margin-bottom:0;
+    }
