@@ -1,1 +1,1 @@
-View my personal website at ted-samore.appspot.com
+View my personal website <a href = "http://ted-samore.appspot.com">here</a>.
