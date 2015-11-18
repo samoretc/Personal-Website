@@ -1,6 +1,6 @@
 body{ 
 
-  background: url('../images/background_2.png');
+  background: url('../images/background.webp');
 /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
   
@@ -15,6 +15,12 @@ body{
      on the container's size */
   background-size: cover;
   }
+
+  .test {
+    padding-left: 20px;
+    margin-top: -10px;
+  }
+a.lab {color: #428bca; }
 
 /* Wrapper */
 .icon-button {

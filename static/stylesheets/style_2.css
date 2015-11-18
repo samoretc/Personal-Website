@@ -1,0 +1,42 @@
+body {
+  background: url('../images/background_2.webp');
+/* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: white;
+
+  height: 110vh;
+
+}
+.back2{padding-left: 20px; height: 100%;}
+ .back:hover { 
+        background-color: #EEEEEE;
+      }
+      .back{
+         background-color: #C6C6C7;
+    border:2px solid;
+    border-radius:25px;
+        
+        margin: 10px;        
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        padding: 20px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        font-weight: normal;
+
+      }
+
+a.lab {color: #428bca; }
